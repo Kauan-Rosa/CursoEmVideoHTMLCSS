@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     width: 100%;
-    height: 260px;
     color: white;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 7em;
+    font-size: 10vw;
+    padding-top: 60px;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
 }
 
 header p {
-    position: absolute;
-    padding-top: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 header a {
@@ -28,8 +35,70 @@ header a {
     color: white;
 }
 
-main p {
-    font-size: 3em;
+header a:hover {
+    text-decoration: underline;
+}
+
+
+main section.normal {
     margin-left: 20px;
     margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+main section.imagem {
+    background: black center center / cover no-repeat fixed;
+    padding-top: 5px;
+    font-size: 5vw;
+}
+
+main section#img1  {
+    background: black url(imagens/girassol_210235387.jpg) center center / cover no-repeat fixed;
+
+}
+
+main section#img2 {
+    background-image: url(imagens/73a9c64951be41ed0eb906f30717f6ee.jpg);
+}
+
+main section#nor {
+    margin-top: -100px;
+}
+
+main p.img {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    font-size: 3.5vw;
+}
+
+main p {
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 10px;
+    font-family: 'Sriracha', cursive;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
