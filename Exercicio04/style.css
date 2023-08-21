@@ -39,11 +39,11 @@ header a:hover {
     text-decoration: underline;
 }
 
-
-main section.normal {
-    margin-left: 20px;
-    margin-top: 80px;
-    margin-bottom: 180px;
+main section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 
 main section.imagem {
@@ -95,7 +95,7 @@ footer {
 footer p {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 footer a {
